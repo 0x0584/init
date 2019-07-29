@@ -1,0 +1,2 @@
+# get brodcast address
+ifconfig en0 | grep broadcast | awk '{print $6}'

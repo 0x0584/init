@@ -1,1 +1,2 @@
+# list all network interfaces
 ifconfig -l
