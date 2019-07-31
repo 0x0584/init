@@ -1,0 +1,2 @@
+# For debian, systemctl gives info about running deamons
+systemctl status ssh

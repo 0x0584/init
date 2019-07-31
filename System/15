@@ -1,0 +1,4 @@
+# so many ways to kill
+
+kill -9 $(pgrep <COMMAND>)
+pkill <COMMAND>

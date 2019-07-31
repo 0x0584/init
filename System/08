@@ -1,0 +1,4 @@
+# the .ssh repo contains a file called 'authorized_keys', which holds RSA keys
+# of allowed systems. It's different for each user.
+#
+~/.ssh/authorized_keys

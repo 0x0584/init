@@ -1,0 +1,4 @@
+# Debian Operating systems has the file /etc/hostname.
+# A command would look like this
+
+sudo echo "foobar" > /etc/hostname

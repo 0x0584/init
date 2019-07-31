@@ -1,0 +1,4 @@
+# cron is a system service that provides tasks scheduling put a shell script
+# in any of the following folders:
+#
+#	/etc/cron.{hourly,daily,weekly,monthly}

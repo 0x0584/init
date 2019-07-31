@@ -1,0 +1,3 @@
+# If logged in already, use logout
+# then if graphically, you will be asked to enter a user and password
+# with ssh you need to run a command 'ssh <USER>@<IP> -p<PORT>' and enter password
