@@ -1,0 +1,7 @@
+# the procedure is the following:
+#
+# get IP from DHCP
+# do nslookup on that IP
+# print the name
+
+nslookup $(ifconfig en0 | grep "inet " | awk '{print $2}') | grep "name" | awk '{print $4}'

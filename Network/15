@@ -1,0 +1,4 @@
+# The utility of etc/hosts is that we can remap a domain address into an IP
+# address, thus we need to add the following line to /etc/hosts
+#
+46.19.122.85	intra.42.fr

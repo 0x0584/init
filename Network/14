@@ -1,0 +1,3 @@
+# All Unix-like Operating Systems has a /etc/hosts which contains the
+# local DNS entries
+/etc/hosts

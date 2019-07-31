@@ -1,0 +1,7 @@
+# the output of traceroute has the following:
+#
+#  line 1 is the machine's IP @
+#  line 2 is the NAT's IP @, who maps local-to-public IPs
+#  line 3 is the final public IP @
+#  following lines are the rest of the journey
+196.65.16.1
