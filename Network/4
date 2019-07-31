@@ -1,1 +1,3 @@
+# netstat gives information about the network status, routing table
+# is shown using the flag -r. then extract the default for Ethernet (en0)
 netstat -nr | grep en0 | grep default | awk '{print $2}'

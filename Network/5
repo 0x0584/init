@@ -1,1 +1,2 @@
-nslookup slash16.org | grep 'Server :' | awk '{ print $2 }'
+# nslookup interacte with websites, the DNS is the Server:
+nslookup slash16.org | grep 'Server:' | awk '{ print $2 }'

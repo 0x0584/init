@@ -1,1 +1,2 @@
+# get configuration of Ethernet (en0), then extract brodcast info
 ifconfig en0 | grep broadcast | awk '{print $6}'

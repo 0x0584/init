@@ -1,1 +1,2 @@
+# get configuration of Wi-Fi card (en1), extract the MAC address
 ifconfig en1 | grep "ether " | awk '{print $2}'
