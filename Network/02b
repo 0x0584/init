@@ -1,2 +1,1 @@
-# arp get all IP addresses in a subnetwork
 arp -a

@@ -1,7 +1,4 @@
-# the procedure is the following:
-#
-# get IP from DHCP
-# do nslookup on that IP
-# print the name
-
-nslookup $(ifconfig en0 | grep "inet " | awk '{print $2}') | grep "name" | awk '{print $4}'
+# getting the IP assigned by DHCP with ifconfig en0
+# run query using nslookup
+# nslookup $(ifconfig en0 | grep "inet " | awk '{print $2}') | grep "name" | awk '{print $4}'
+e1r2p3.1337.ma

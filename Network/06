@@ -1,3 +1,3 @@
-# All Unix-like Operating Systems use a resolv.conf file, which configures
-# The client side access to DNS
+# All Unix-like Operating Systems use a resolv.conf file which
+# hold the configuration of the client's side access to DNS
 /etc/resolv.conf

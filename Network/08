@@ -1,2 +1,4 @@
-# The provider is Amazon Web Services, we can check that using
-whois slash16.org | grep 'Name Server:' | awk '{ print $3 }'
+# The provider is AWS -- Amazon Web Services
+# we can check that using the following command
+#
+# whois slash16.org | grep 'Name Server:' | awk '{ print $3 }'
