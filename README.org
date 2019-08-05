@@ -1,0 +1,4 @@
+* Useful Debain Packages
+
+  + net-tools :: ifconfig
+  + dnsutils :: nslookup

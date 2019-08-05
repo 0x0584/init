@@ -1,3 +1,0 @@
-# adding & anywhere in a command runs it in the background
-#
-tail -f /var/log/syslog &

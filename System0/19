@@ -1,0 +1,1 @@
+eval systemctl list-unit-files --type=service | grep enabled | awk -F'.service' '{gsub("@","",$1); print $1}'

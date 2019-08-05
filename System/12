@@ -1,4 +1,0 @@
-# without option -s (--summarize) we would print the size of each file!
-# while we want each folder
-#
-du -sh /var/*

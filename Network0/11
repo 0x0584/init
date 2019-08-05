@@ -5,4 +5,9 @@
 #  line 2 is the NAT's IP @, who maps local-to-public IPs
 #  line 3 is the final public IP @
 #  following lines are the rest of the journey
-196.65.16.1
+#
+#  the device we're looking for is the NAT which is the 2nd @
+#
+#  we can check that using thw following command
+#
+#  traceroute 42.fr | head -3 | grep nat | awk '{print $3}' | tr -d '()' 
